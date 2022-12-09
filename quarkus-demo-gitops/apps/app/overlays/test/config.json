@@ -1,0 +1,11 @@
+{
+  "appName": "app",
+  "userGivenName": "app",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "quarkus-demo-gitops/apps/app/overlays/test",
+  "srcRepoURL": "https://github.com/rhtevan/quarkus-demo.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
