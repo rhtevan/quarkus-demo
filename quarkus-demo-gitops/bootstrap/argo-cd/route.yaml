@@ -8,7 +8,10 @@ metadata:
     app.kubernetes.io/part-of: argocd
   name: argocd-server
 spec:
-  host: argocd-server-argocd.apps-crc.testing
+  # OpenShift Local
+  # host: argocd-server-argocd.apps-crc.testing
+  # ROSA - demo.redhat.com
+  host: argocd-server-argocd.apps.rosa-mt5ck.13se.p1.openshiftapps.com
   to:
     kind: Service
     name: argocd-server
