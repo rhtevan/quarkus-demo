@@ -1,7 +1,7 @@
 {
   "appName": "hello-world",
   "userGivenName": "hello-world",
-  "destNamespace": "default",
+  "destNamespace": "test",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "quarkus-demo-gitops/apps/hello-world/overlays/test",
   "srcRepoURL": "https://github.com/rhtevan/quarkus-demo.git",
