@@ -1,6 +1,8 @@
 apiVersion: project.openshift.io/v1
 kind: Project
 metadata:
+  name: test
   labels:
     kubernetes.io/metadata.name: test
-  name: test
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=false
