@@ -6,8 +6,8 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
   labels:
     app.kubernetes.io/managed-by: argocd-autopilot
-    app.kubernetes.io/name: root
-  name: root
+    app.kubernetes.io/name: environments
+  name: environments
   namespace: argocd
 spec:
   destination:
