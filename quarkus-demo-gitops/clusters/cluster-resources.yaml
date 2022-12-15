@@ -13,21 +13,14 @@ spec:
       repoURL: https://github.com/rhtevan/quarkus-demo.git
       requeueAfterSeconds: 20
       revision: "uds"
-      template:
-        metadata: {}
-        spec:
-          destination: {}
-          project: ""
-          source:
-            repoURL: ""
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
     metadata:
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
-        app.kubernetes.io/name: {{name}}
-      name: {{name}}
+        app.kubernetes.io/name: '{{name}}'
+      name: '{{name}}'
       namespace: argocd
     spec:
       destination:
