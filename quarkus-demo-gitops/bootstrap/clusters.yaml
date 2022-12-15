@@ -21,6 +21,7 @@ spec:
   source:
     path: quarkus-demo-gitops/clusters
     repoURL: https://github.com/rhtevan/quarkus-demo.git
+    targetRevision: "uds"
   syncPolicy:
     automated:
       allowEmpty: true

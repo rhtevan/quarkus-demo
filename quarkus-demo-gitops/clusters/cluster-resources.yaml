@@ -12,7 +12,7 @@ spec:
       - path: quarkus-demo-gitops/clusters/*.json
       repoURL: https://github.com/rhtevan/quarkus-demo.git
       requeueAfterSeconds: 20
-      revision: ""
+      revision: "uds"
       template:
         metadata: {}
         spec:
@@ -41,6 +41,7 @@ spec:
       source:
         path: quarkus-demo-gitops/clusters/{{name}}
         repoURL: https://github.com/rhtevan/quarkus-demo.git
+        targetRevision: "uds"
       syncPolicy:
         automated:
           allowEmpty: true
