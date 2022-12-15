@@ -3,14 +3,13 @@ kind: ApplicationSet
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "0"
-  creationTimestamp: null
   name: cluster-resources
   namespace: argocd
 spec:
   generators:
   - git:
       files:
-      - path: quarkus-demo-gitops/bootstrap/cluster-resources/*.json
+      - path: quarkus-demo-gitops/clusters/*.json
       repoURL: https://github.com/rhtevan/quarkus-demo.git
       requeueAfterSeconds: 20
       revision: ""
@@ -27,8 +26,8 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
-        app.kubernetes.io/name: cluster-resources-{{name}}
-      name: cluster-resources-{{name}}
+        app.kubernetes.io/name: {{name}}
+      name: {{name}}
       namespace: argocd
     spec:
       destination:
@@ -40,7 +39,7 @@ spec:
         kind: Application
       project: default
       source:
-        path: quarkus-demo-gitops/bootstrap/cluster-resources/{{name}}
+        path: quarkus-demo-gitops/clusters/{{name}}
         repoURL: https://github.com/rhtevan/quarkus-demo.git
       syncPolicy:
         automated:
