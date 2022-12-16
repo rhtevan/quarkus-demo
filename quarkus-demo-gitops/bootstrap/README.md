@@ -12,4 +12,4 @@ export GIT_REPO=<REPO_URL>
 
 argocd-autopilot repo bootstrap --recover
 ```
-> For more details, [see](https://argocd-autopilot.readthedocs.io/en/stable/Getting-Started/#recovering-argo-cd-from-an-existing-repository)
+> For more details, See Argocd Autopilot: [recovery](https://argocd-autopilot.readthedocs.io/en/stable/Getting-Started/#recovering-argo-cd-from-an-existing-repository), and [installation](https://argocd-autopilot.readthedocs.io/en/stable/Installation-Guide/#linux-and-wsl-using-curl)
