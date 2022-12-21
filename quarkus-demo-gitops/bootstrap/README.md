@@ -1,7 +1,7 @@
 # Bootstrap
 This directory contains the deployment and operation code for bootstrapping gitops tools, in particular, ArgoCD controllers for managing not only itself but also deployment environments and destination clusters. 
 
-### Initialize the Command Center Cluster (A lightweight cluster with gitops tools)
+### Initialize an Ignition Cluster (A lightweight cluster with gitops tools)
 To run:
 ```bash
 export GIT_TOKEN=<YOUR_TOKEN>
