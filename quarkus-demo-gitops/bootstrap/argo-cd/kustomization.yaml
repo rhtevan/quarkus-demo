@@ -10,6 +10,7 @@ configMapGenerator:
       usernameSecret:
         key: git_username
         name: autopilot-secret
+    application.resourceTrackingMethod: annotation
   name: argocd-cm
 kind: Kustomization
 namespace: argocd
