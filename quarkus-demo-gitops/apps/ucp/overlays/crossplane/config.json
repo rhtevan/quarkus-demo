@@ -1,0 +1,11 @@
+{
+  "appName": "ucp",
+  "userGivenName": "ucp",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "quarkus-demo-gitops/apps/ucp/overlays/crossplane",
+  "srcRepoURL": "https://github.com/rhtevan/quarkus-demo.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
