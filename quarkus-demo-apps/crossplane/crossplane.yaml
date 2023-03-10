@@ -1,0 +1,12 @@
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: crossplane-helm-chart
+
+# Helm Chart name
+name: crossplane 
+repo: https://charts.crossplane.io/stable 
+version: v1.11.2
+releaseName: ucp
+valuesFile: values.yaml
+IncludeCRDs: true
