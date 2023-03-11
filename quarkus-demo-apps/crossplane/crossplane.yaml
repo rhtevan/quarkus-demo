@@ -5,8 +5,10 @@ metadata:
 
 # Helm Chart name
 name: crossplane 
-repo: https://charts.crossplane.io/stable 
-version: v1.11.2
+#repo: https://charts.crossplane.io/stable 
+#version: v1.11.2
+repo: https://charts.crossplane.io/master 
+version: v1.12.0-rc.0.171.gd11fb2a8
 releaseName: ucp
 valuesFile: values.yaml
 IncludeCRDs: true

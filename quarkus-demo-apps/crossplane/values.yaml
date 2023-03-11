@@ -2,11 +2,6 @@ replicas: 1
 
 deploymentStrategy: RollingUpdate
 
-image:
-  repository: crossplane/crossplane
-  tag: v1.11.2
-  pullPolicy: IfNotPresent
-
 nodeSelector: {}
 tolerations: []
 affinity: {}
