@@ -4,7 +4,7 @@
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "quarkus-demo-gitops/apps/admin-plugin/overlays/gitops",
-  "srcRepoURL": "https://github.com/gnunn-gitops/gitops-admin-plugin.git",
+  "srcRepoURL": "https://github.com/rhtevan/quarkus-demo.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null
