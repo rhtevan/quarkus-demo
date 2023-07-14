@@ -1,7 +1,7 @@
 {
   "appName": "admin-plugin",
   "userGivenName": "admin-plugin",
-  "destNamespace": "default",
+  "destNamespace": "gitops-admin-plugin",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "quarkus-demo-gitops/apps/admin-plugin/overlays/gitops",
   "srcRepoURL": "https://github.com/rhtevan/quarkus-demo.git",
