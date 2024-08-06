@@ -16,6 +16,6 @@ configMapGenerator:
 kind: Kustomization
 namespace: argocd
 resources:
-- github.com/argoproj-labs/argocd-autopilot/manifests/base?ref=v0.4.15
+- github.com/argoproj-labs/argocd-autopilot/manifests/base?ref=v0.4.17
 - route.yaml
 - scc.yaml
